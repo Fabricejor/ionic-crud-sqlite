@@ -1,0 +1,7 @@
+{
+  "name": "crud-php",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
