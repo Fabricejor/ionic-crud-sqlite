@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>edit</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item>
+      <ion-label>Fisrt name</ion-label>
+      <ion-input aria-label="Fisrt name" [(ngModel)]="formData.fisrtname"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Last name</ion-label>
+      <ion-input aria-label="Last name" [(ngModel)]="formData.lastname"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Gender</ion-label>
+      <ion-input  aria-label="Gender" [(ngModel)]="formData.gender"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Age</ion-label>
+      <ion-input aria-label="Age" [(ngModel)]="formData.age"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Email</ion-label>
+      <ion-input aria-label="Email" [(ngModel)]="formData.email"></ion-input>
+    </ion-item>
+    <ion-button expand="full">
+      Ya ngi Update
+    </ion-button>
+  </ion-list>
+</ion-content>

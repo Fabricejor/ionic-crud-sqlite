@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>create</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item>
+      <ion-label>Fisrt name</ion-label>
+      <ion-input [(ngModel)]="formData.fisrtname"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Last name</ion-label>
+      <ion-input [(ngModel)]="formData.lastname"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Gender</ion-label>
+      <ion-input [(ngModel)]="formData.gender"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Age</ion-label>
+      <ion-input [(ngModel)]="formData.age"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Email</ion-label>
+      <ion-input [(ngModel)]="formData.email"></ion-input>
+    </ion-item>
+    <ion-button expand="full" (click) = "create()">
+      CREATE
+    </ion-button>
+  </ion-list>
+</ion-content>
